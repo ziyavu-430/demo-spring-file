@@ -1,0 +1,12 @@
+package com.java.samples;
+
+  public class Multi extends Thread {  
+		public void run(){  
+		System.out.println("thread is running...");  
+		}  
+		public static void main(String args[]){  
+		Multi t1=new Multi(); 
+		//Thread t2 =new Thread(t1);  
+        t1.start();  
+		 }  
+		}  
